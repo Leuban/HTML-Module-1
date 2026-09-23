@@ -1,0 +1,45 @@
+h1{
+    color: rgb(11, 11, 10);
+    text-align: center;
+    ## to select all h1 elements and apply the following styles
+}
+div{
+    ## to select all div elements and apply the following styles
+}
+
+.contentDiv{
+    ## to select the div with class contentDiv and apply the following styles
+}
+
+#imageDiv{
+    ## to select the div with id imageDiv and apply the following styles
+}
+
+button[type="submit"]{
+    ## to select all buttons with type submit and applies the following styles
+}
+
+*{
+    ## to select all elements and apply the following styles
+}
+
+#buttonsDiv button{
+    ## to select all buttons inside the div with id buttonsDiv and apply the following styles
+}
+
+#buttonsDiv button:hover{
+    ## to select all buttons inside the div with id buttonsDiv when hovered and apply the following styles
+}
+
+#buttonsDiv button:active{
+    ## to select all buttons inside the div with id buttonsDiv when active and apply the following styles
+}
+
+#buttonsDiv button:focus{
+    ## to select all buttons inside the div with id buttonsDiv when focused and apply the following styles
+}
+
+#buttonsDiv>button{
+    ## to select all buttons that are direct children of the div with id buttonsDiv and apply the following styles
+}
+
